@@ -2,6 +2,10 @@ package autoapp.automation.utility;
 
 import java.util.List;
 import java.util.Set;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.firefox.*;
 
 
 public class BrowserDriver implements WebDriver {
@@ -29,7 +33,6 @@ public class BrowserDriver implements WebDriver {
 
     public void close() {
         this.driver.close();
-
     }
 
     public WebElement findElement(By arg0) {
