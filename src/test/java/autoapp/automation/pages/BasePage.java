@@ -1,14 +1,12 @@
 package autoapp.automation.pages;
 
 import autoapp.automation.utility.BrowserDriver;
-
-
 import java.util.Random;
 
 public class BasePage extends BrowserDriver{
 
 	public BasePage(BrowserDriver driver){
-		super(driver);
+ 		super(driver);
 	}
 
 	public static int generateRandomIntIntRange(int min, int max) {
